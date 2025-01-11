@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
 	<metadata>
-		<id>MonoGameUtilities</id>
-		<version>1.0.0</version>
+		<id>TobiasKnauf.MonoGameUtilities</id>
+		<version>1.0.1</version>
 		<title>MonoGameUtilities</title>
 		<authors>Tobias Knauf</authors>
 		<owners>Tobias Knauf</owners>
@@ -21,10 +21,16 @@
 		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Commons.dll" target="lib\net8.0" />
 		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Commons.pdb" target="lib\net8.0" />
 
-		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Entities.dll" target="lib\net8.0" />
-		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Entities.pdb" target="lib\net8.0" />
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Core.dll" target="lib\net8.0" />
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Core.pdb" target="lib\net8.0" />
 
 		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Input.dll" target="lib\net8.0" />
 		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Input.pdb" target="lib\net8.0" />
+
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Graphics.dll" target="lib\net8.0" />
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Graphics.pdb" target="lib\net8.0" />
+
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Debug.dll" target="lib\net8.0" />
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Debug.pdb" target="lib\net8.0" />
 	</files>
 </package>
