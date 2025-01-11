@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageId>MonoGameUtilities</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Tobias Knauf</Authors>
+		<Description>A collection of commonly used methods as well as engine enhancements for the MonoGame framework</Description>
+		<RepositoryUrl>https://github.com/TobiasKnauf/MonoGameUtilities/</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MonoGame.Commons\MonoGameUtilities.Commons.csproj" />
+		<ProjectReference Include="..\MonoGame.Entities\MonoGameUtilities.Entities.csproj" />
+		<ProjectReference Include="..\MonoGame.Input\MonoGameUtilities.Input.csproj" />
+	</ItemGroup>
+
+</Project>

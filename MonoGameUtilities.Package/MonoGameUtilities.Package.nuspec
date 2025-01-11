@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+	<metadata>
+		<id>MonoGameUtilities</id>
+		<version>1.0.0</version>
+		<title>MonoGameUtilities</title>
+		<authors>Tobias Knauf</authors>
+		<owners>Tobias Knauf</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<description>A collection of commonly used methods as well as engine enhancements for the MonoGame framework.</description>
+		<releaseNotes>Initial release.</releaseNotes>
+		<copyright>Copyright 2024</copyright>
+		<tags>utilities monogame</tags>
+		<readme>docs/README.md</readme>
+		<repository type="git" url="https://github.com/TobiasKnauf/MonoGameUtilities"/>
+	</metadata>
+	<files>
+		<file src="README.md" target="docs\" />
+
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Commons.dll" target="lib\net8.0" />
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Commons.pdb" target="lib\net8.0" />
+
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Entities.dll" target="lib\net8.0" />
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Entities.pdb" target="lib\net8.0" />
+
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Input.dll" target="lib\net8.0" />
+		<file src="..\MonoGameUtilities.Package\bin\Release\net8.0\MonoGameUtilities.Input.pdb" target="lib\net8.0" />
+	</files>
+</package>
