@@ -23,6 +23,9 @@ namespace MonoGameUtilities.Core.Types
             this.Scale = _scale;
         }
 
-        public void Translate(Vector2 _direction, float _time) { }
+        public void Translate(Vector2 _direction, float _time)
+        {
+            Position += _direction * _time;
+        }
     }
 }

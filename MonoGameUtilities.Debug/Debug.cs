@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using MonoGameUtilities.Core.Components;
-using MonoGameUtility.Graphics;
+using MonoGameUtilities.Graphics;
 
 namespace MonoGameUtilities.Debug
 {
-    public class Debug
+    public static class Debug
     {
-        public void ShowColliderOutlines(BoxCollider _col, SpriteBatch _sb)
+        public static void ShowColliderOutlines(BoxCollider _col, SpriteBatch _sb)
         {
             var Min = _col.Min;
             var Max = _col.Max;
