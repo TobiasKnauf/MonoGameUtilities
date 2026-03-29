@@ -31,20 +31,12 @@ namespace MonoGameUtilities.Core.Components
 
         }
 
-        // public bool Intersects()
-        // {
-        //     foreach (var c in CollisionManager.Instance.Collider)
-        //     {
-        //         if (c == null) break;
-        //         if (c == this) continue;
+        public bool Intersects(BoxCollider other)
+        {
+            if (other == null) return false;
 
-        //         if (Min.X < c.Max.X)
-        //             if (Max.X > c.Min.X)
-        //                 if (Min.Y < c.Max.Y)
-        //                     if (Max.Y > c.Min.Y) return true;
-        //     }
-
-        //     return false;
-        // }
+            return Min.X < other.Max.X && Max.X > other.Min.X
+                && Min.Y < other.Max.Y && Max.Y > other.Min.Y;
+        }
     }
 }

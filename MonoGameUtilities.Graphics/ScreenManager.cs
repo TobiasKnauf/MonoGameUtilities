@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace MonoGameUtility.Graphics
+namespace MonoGameUtilities.Graphics
 {
     public class ScreenManager
     {
